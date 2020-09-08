@@ -11,8 +11,14 @@ persist.vendor.audio.fluence.voicerec=false
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
-vendor.qcom.bluetooth.soc=smd \
-ro.bluetooth.hfp.ver=1.7
+persist.vendor.audio.fluence.voicerec=false \
+persist.bluetooth.a2dp_offload.disabled=false \
+persist.vendor.btstack.enable.splita2dp=false \
+persist.vendor.btstack.avrcp-playstatus.blacklist=true \
+persist.vendor.qcom.bluetooth.enable.splita2dp=false \
+ro.bluetooth.library_name=libbluetooth_qti.so \
+ro.vendor.bluetooth.wipower=false \
+vendor.qcom.bluetooth.soc=pronto
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
