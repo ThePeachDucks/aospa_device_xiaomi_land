@@ -730,23 +730,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so|79d924c8006b33b358bf9e3d9a21ff2fe8a937df
 vendor/lib64/vendor.qti.gnss@3.0-service.so|53f5c24b57a3157b6b48fc56e6ab67b70ed8fa48
 vendor/lib64/vendor.qti.gnss@3.0.so|48b718e175dbf6156ded10a056a47d4988319395
 
-# Graphics (Postprocessing) - from LA.UM.8.6.r1-04400-89xx.0
-etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
-framework/com.qti.snapdragon.sdk.display.jar|495d45dd84a61e873a3d1176ab7741826e60d7f1
-vendor/bin/hw/vendor.display.color@1.0-service|dd461fbbbdc7175b8e1e37eba19bc1c48111b5b6
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|a25c2cc8a0498b8f3a08770b97e49b5545868eca
-vendor/bin/mm-pp-dpps|5d68b2ae07de96e33d1c1b7698994ec2b219e084
-vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
-vendor/lib/libdisp-aba.so|4cf57355042ffc0ba748c6cbc86d1b22361f7336
-vendor/lib/vendor.display.color@1.0.so|fb26ad8a8093b58484f58176394b2750d2f9a534
-vendor/lib/vendor.display.postproc@1.0.so|4023d0dd9b4c391caa1fcdb59ab9841e42b57aaa
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|4fb98c658d6e2c624cff498f4af79a2b64aec79a
-vendor/lib64/libdisp-aba.so|8131a967a51959d88006a20b1f12ced0bf075e4c
-vendor/lib64/vendor.display.color@1.0.so|f0af4540df53f4b921af726515beda9a1982c79e
-vendor/lib64/vendor.display.postproc@1.0.so|b492eb78d6f4c32158883b142f5d731706a2f7dc
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|f8a0e23cf538bc6664627ba9ac9efec7cfb34077
-
 # Graphics firmware - from Daisy 10/QKQ1.191002.002/V11.0.5.0.QDLMIXM
 vendor/firmware/a506_zap.b00|c45a7b34456844f5deb73e2dce79cbfcfb9ae71c
 vendor/firmware/a506_zap.b01|374b5c4a2212b2636d5dfc2deda66b56b6bf2d03
@@ -832,6 +815,15 @@ vendor/bin/pm-proxy|2ac2d0e897ccb4c9a96b6a4cd3d66c2ef66c5b61
 vendor/bin/pm-service|68a46996bcb9014ebc948990fd943c40206dd8f2
 vendor/lib/libperipheral_client.so|7c096cff421a96be6490e1f004a57ee3b6b6e088
 vendor/lib64/libperipheral_client.so|fe796ff65665d341ddaa5847c26504b96a8c78ee
+
+# Postprocessing - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5 
+vendor/bin/mm-pp-dpps|812c68cca1dd8c12c9b354e32ca3263bfe009e5c 
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48 
+vendor/lib/vendor.display.color@1.0.so|fae64a681c035869b8b7a0df01677e3a1f26a3e2 
+vendor/lib/vendor.display.postproc@1.0.so|8ded4bb33417aa702750cbec585a4f3dc225be89 
+vendor/lib64/vendor.display.color@1.0.so|cd604706cd50989b899c04a252f7f02d17996ba9
+vendor/lib64/vendor.display.postproc@1.0.so|cc62ff1b3e8ff0e11b750ae59a0f851fdab50962
 
 # Power-off alarm - from LA.UM.8.6.r1-04400-89xx.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e
