@@ -87,6 +87,17 @@ vendor/lib64/libsdm-disp-vndapis.so|5f2dfe8f37dd33f3f87ba9743bd228b0a90e13dd
 vendor/lib64/libsdmextension.so|97d94c820d42a7db07beef2485cd83d49606622b
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
+# Alarm - from LA.UM.8.6.2.r1-08400-89xx.0
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e 
+product/framework/vendor.qti.hardware.alarm-V1.0-java.jar|69dedc62181ae26bb2fac4eaacb1f2c38eb21c31 
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|09991c52c26538bd8fa46492e7e55a6938ac05ac 
+vendor/bin/power_off_alarm|21d09b2c83d227072e11e0f0a594baf2ecca9eed 
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05 
+vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so|e91c7ebd1e1f00e85867335be724c904dce2f33e 
+vendor/lib/vendor.qti.hardware.alarm@1.0.so|11ebbfe1f45fdeb81e5af9a84884da71d20c744f 
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|fbf078c47a2a67be329e8390c988255dd578949c
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|526b7c9ade9787565d48fcafae6230f04effa8d6
+
 # Audio - from LA.UM.8.6.r1-04400-89xx.0
 vendor/lib/libacdb-fts.so|6bbcdd34b8344964c54d0a072e63feec71673b7c
 vendor/lib/libacdbloader.so|d4a41a817ae856c0c727d6f9360c29ee0c2f410a
@@ -827,14 +838,6 @@ vendor/lib/vendor.display.color@1.0.so|fae64a681c035869b8b7a0df01677e3a1f26a3e2
 vendor/lib/vendor.display.postproc@1.0.so|8ded4bb33417aa702750cbec585a4f3dc225be89 
 vendor/lib64/vendor.display.color@1.0.so|cd604706cd50989b899c04a252f7f02d17996ba9
 vendor/lib64/vendor.display.postproc@1.0.so|cc62ff1b3e8ff0e11b750ae59a0f851fdab50962
-
-# Power-off alarm - from LA.UM.8.6.r1-04400-89xx.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|42c161f4b3033ee2ce33ec3e505031e9137577e7
-vendor/bin/power_off_alarm|22e0d6e5cab225cb430b2c860f480b43103a4701
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|cbf2dd1cd5cbf0dbb90f1563a77bc7fee608fb2e
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|680d4ad1999c8db44ee7d6240dda4ec1873e4c4d
 
 # QMI - from Tissot PKQ1.180917.001.V10.0.17.0.PDHMIXM
 lib64/libdiag_system.so:product/lib64/libdiag_system.so|811c30efa526e8e3828b112487b1d203cca5ed6e
