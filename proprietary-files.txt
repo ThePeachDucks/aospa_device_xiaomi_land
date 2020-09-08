@@ -21,8 +21,11 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
 
-# ANT+ (vendor) - from LA.UM.8.6.r1-04400-89xx.0
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
+# ANT+ - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/lib/com.qualcomm.qti.ant@1.0.so|a09ab576f95512dbd920a9befcda6a4e30b60e68 
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|20f8fac12c12eae602a39ce694c6b01508f0c171 
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|9dc1bc2f1d726d71af31cc8c955aba122bbcdb1e
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|203528c568c1c5ce33b35dcb9ee9eb7ecb1de206
 
 # Adreno - from LA.UM.8.6.2.r1-08400-89xx.0
 vendor/lib/egl/eglSubDriverAndroid.so|18cd5ef88b08d3dcf04de7e3698127e2ff7637ad 

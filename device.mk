@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
+    antradio_app \
     libantradio
 
 # Audio
