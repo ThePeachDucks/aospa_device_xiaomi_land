@@ -702,8 +702,8 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land|cf73241fa
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.land.rc|afbdcc24ccd01abe019ca728bf302f1c26c84ab0
 vendor/lib64/libbindergx.so|eb676b92d13a7835aaab309d5c692151993e016f
 
-# FM Radio - from LA.UM.8.6.r1-04400-89xx.0
-vendor/bin/fm_qsoc_patches|82ab33e928933b8077e77c1532a58b61a3551932
+# FM Radio - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/bin/fm_qsoc_patches|5b5accb606681fb1c7abc2efc8b5208ff220eb88
 vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
 vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
 
