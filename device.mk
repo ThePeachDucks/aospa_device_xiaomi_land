@@ -79,7 +79,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 AUDIO_SDK_FLUENCETYPE := fluence
-$(call inherit-product, hardware/qcom/audio/configs/msm8937/msm8937.mk)
+$(call inherit-product, vendor/qcom/opensource/audio-hal/primary-hal/configs/msm8937/msm8937.mk)
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
