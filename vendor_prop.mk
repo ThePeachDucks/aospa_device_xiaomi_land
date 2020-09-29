@@ -20,6 +20,10 @@ ro.bluetooth.library_name=libbluetooth_qti.so \
 ro.vendor.bluetooth.wipower=false \
 vendor.qcom.bluetooth.soc=pronto
 
+#BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.kernel.ebpf.supported=true
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
