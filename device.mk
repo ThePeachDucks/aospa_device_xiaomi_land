@@ -269,7 +269,9 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    vendor.qti.hardware.capabilityconfigstore@1.0 \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 # ParanoidDoze
 PRODUCT_PACKAGES += \
