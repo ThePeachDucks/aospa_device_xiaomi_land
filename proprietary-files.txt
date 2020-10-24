@@ -1078,6 +1078,10 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|705e64a3b388cf8d0a3e5fa1b602b4116576812f
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|182440c6d1f9dde20ee12420ec6319104388b8f3
 
+# VNDK - from system
+vendor/lib/vndk-sp/libcutils.so|846d5769b71abca5b8fa185d4cf83a5cf1afed3c
+vendor/lib/vndk/libprocessgroup.so|d2b88fec1e836193252456335e93afe058d84515
+
 # Wi-Fi - from Tissot PKQ1.180917.001.V10.0.17.0.PDHMIXM
 vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
 
